@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <style>
+
+body{
+background-color :black;
+color:white;
+
+}
+    main {
+            display: flex;
+            justify-content: center;
+            margin-top: 130px;
+            
+      
+        }
+
+        form {
+            width: 500px;
+            border: 1px solid lightgrey;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .card > input,
+        select {
+            padding: 10px;
+            color: grey;
+            border: 1px solid lightgrey;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            font-size: 18px;
+            border: 0;
+            border-radius: 5px;
+            background-color: lime;
+            color: white;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+  <center><h1>Registration Page</h1></center>
+
+<main>
+        <form class='card' action="Login.html">
+            <input placeholder="First name">
+            <input placeholder="Last name">
+            <input placeholder="Phone number">
+            <input placeholder="Email" type="email" required title="Please enter a valid email address">
+            <label for="">Gender</label>
+            <select name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="">Date</label>
+            <input type="date">
+            <section>
+                <label for="colorpicker">Color Picker:</label>
+                <input type="color" id="colorpicker" value="#0000ff">
+            </section>
+            <button>Submit</button>
+        </form>
+    </main>
+</body>
+</html>
