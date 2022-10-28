@@ -1,0 +1,85 @@
+body{
+  margin:0px;
+}
+nav{
+    display: flex;
+    height: 50px;
+    background-color: black;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+.my{
+    color: #b755c7;
+    font-family: "Sofia", sans-serif;
+    font-size: 18px;
+}
+.portfolio{
+    color:  #2feed8;
+    font-family: "Sofia", sans-serif;
+    margin-left: -4px;
+    font-size: 18px;
+
+}
+ ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+ul > a {
+    text-decoration: none;   
+}
+ul > a > li{
+    font-size: 16px;
+    list-style-type: none;
+    font-family: 'Poppins' , 'sans-serif';
+    color:  #F2A5E8;
+    margin: 0px 10px;
+}
+ul > a > li:hover{
+  color: white;
+   font-size: 22px;
+  
+}
+main{
+    /* width: 100%; */
+    height: 55vh;
+    padding: 5%;
+    background-color: #0b0f14;
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+}
+h5{
+    color: #F2A5E8;
+    font-size: 16px;
+    margin: 0px;
+    
+}
+h1{
+    color: #2feed8;
+    font-size: 50px;
+    margin: 0px;
+}
+h3{
+    color: #b755c7;
+    font-size: 35px;
+    margin: 0px;
+}
+.intro{
+    margin: 0px;
+    padding: 10% 0px;
+    width: 60%;
+}
+.picture{
+    margin: 0;
+    background-image: url(portfolio.jpeg);
+    background-size: cover;
+
+
+    width: 40%;
+}
+.picture > img{
+    margin: 40px 80px;
+    border-radius: 20px;
+    
+}
