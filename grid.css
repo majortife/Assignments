@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-rows: 200px 100px;
+   grid-template-columns: 3fr 1fr;
+    gap: 10px; 
+  background: black;
+}
+.grid-item{
+/*   border: 10px solid black; */
+}
+.item1{
+    background: orange;
+}
+.item2{
+    background: yellow;
+}
+.item3 {
+  background: green;
+    grid-column: auto / span 1;
+  grid-row: auto/ span 12;
+}
+.item4{
+    background: blue;
+  width:499px;
+  grid-row: auto / span 1;
+  grid-column: auto/ span 1;
+}
+.item5{
+    background: blue;
+  grid-column: auto / span 1;
+  grid-row: auto / span 11;
+
+}
